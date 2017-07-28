@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# QR Code Ionic3 app
 
-## How to use this template
+### HomePage
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+![Alt text](/src/assets/img/qr1.png?raw=true "QRCode")
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+## Tutorial 
+[Ionic QR Code Generator & Reader](https://ionicacademy.com/ionic-qr-code-generator-reader/).
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+### Ionic3
+```javascript
+"ionic-angular": "3.6.0",
+"ngx-qrcode2": "0.0.3",
+"phonegap-plugin-barcodescanner": "^6.0.8",
+"@ionic-native/barcode-scanner": "^4.1.0"
 ```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
